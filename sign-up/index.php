@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.101.0">
-    <title>PHP CRUD · Bootstrap v5.2</title>
+    <title>PHP Crud Sign Up · Bootstrap v5.2</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
 
@@ -74,9 +74,24 @@
 <body class="text-center">
 
     <main class="form-signin w-100 m-auto">
-        <h1 class="h3 mb-3 fw-bold">PHP CRUD</h1>
-        <a href="sign-up" class="w-100 btn btn-lg btn-dark mt-3">Sign Up</a>
-        <a href="sign-in" class="w-100 btn btn-lg btn-light mt-3">Sign In</a>
+        <form>
+            <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal">Please sign up!</h1>
+            <div class="form-floating mb-1">
+                <input type="text" class="form-control" id="floatingInput" placeholder="John Doe">
+                <label for="floatingInput">Name</label>
+            </div>
+            <div class="form-floating mb-1">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary mt-3" type="submit">Sign Up</button>
+            <p class="text-danger">Your data will be deleted after 1 hour.</p>
+        </form>
     </main>
 
 
