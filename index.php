@@ -11,7 +11,7 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
 
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
         .bd-placeholder-img {
@@ -68,19 +68,15 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="../assets/dist/css/signin.css" rel="stylesheet">
+    <link href="assets/dist/css/signin.css" rel="stylesheet">
 </head>
 
 <body class="text-center">
-
     <main class="form-signin w-100 m-auto">
         <h1 class="h3 mb-3 fw-bold">PHP CRUD</h1>
         <a href="sign-up" class="w-100 btn btn-lg btn-dark mt-3">Sign Up</a>
         <a href="sign-in" class="w-100 btn btn-lg btn-light mt-3">Sign In</a>
     </main>
-
-
-
 </body>
 
 </html>
